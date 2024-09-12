@@ -3,7 +3,7 @@
 body 
 {
     margin: 0;
-    min-height: 100vh;
+    min-height: 400vh;
     display: flex;
     flex-direction: column;
     font-family: Roboto;
@@ -52,14 +52,13 @@ a
 {
     display: flex;
     align-items: center;
+    flex: 1;
     justify-content: center;
     background-color: #1F2937;
-    padding: 48px;
 }
 
 .modal
 {
-    background-color: white;
     width: 720px;
     height: 260px;
     display: flex;
@@ -87,6 +86,26 @@ a
     cursor: pointer;
     padding: 8px 16px;
     border-radius: 8px;
+}
+
+.information
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: pink;
+}
+
+.quote
+{
+    flex: 1;
+    background-color: green;
+}
+
+.call
+{
+    flex: 1;
+    background-color: yellow;
 }
 
 .footer
