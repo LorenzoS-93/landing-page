@@ -147,17 +147,59 @@ a
     background-color: #E5E7EB;
     align-items: center;
     justify-content: center;
+
+}
+
+.quote .modal
+{
+    flex-direction: column;
+}
+
+.phrase
+{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+    text-align: justify;
+}
 
+.author
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: end;
 }
 
 .call
 {
+    display: flex;
     flex: 1;
-    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+}
+
+.call .modal
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 24px 48px;
+    border-radius: 8px;
+}
+
+.join
+{
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    color: #E5E7EB;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .footer
